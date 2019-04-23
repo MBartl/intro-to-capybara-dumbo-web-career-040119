@@ -3,7 +3,7 @@ class Application < Sinatra::Base
     erb :index
   end
   
-  post '/greet/' do
+  post '/greet' do
     binding.pry
     erb :greet
   end
